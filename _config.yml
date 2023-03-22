@@ -79,13 +79,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "azerothcore"
+      layout: "git-wiki-default"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "azerothcore"
+      layout: "git-wiki-default"
  -
     scope:
       path: ""
