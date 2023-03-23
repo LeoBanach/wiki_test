@@ -85,7 +85,7 @@ plugins:
  - jemoji
  - jekyll-mentions
 
-exclude: ['wiki']
+# exclude: ['wiki']
 
 
 #
