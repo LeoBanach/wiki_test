@@ -87,14 +87,22 @@ pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
   font-size: 12px;
+  border: 1px solid #e5e5e5;
+  background: #f8f8f8;
+  padding: 2px;
+  border-radius: 3px;
 }
 
-pre, .sidebar-wrapper {
+pre {
   padding: 8px 15px;
   background: #f8f8f8;
   border-radius: 5px;
   border: 1px solid #e5e5e5;
   overflow-x: auto;
+}
+
+pre > code {
+  border: none;
 }
 
 table {
@@ -216,7 +224,7 @@ strong {
   font-weight: 700;
 }
 
-#git-wiki-sidebar .git-wiki-downloads li+li+li {
+#git-wiki-sidebar .git-wiki-downloads {
   border-right: none;
   width: 89px;
 }
@@ -232,6 +240,10 @@ strong {
   float:right;*/
   padding-left: 320px;
   padding-bottom: 50px;
+
+  h1, h2, h3, h4, h5, h6, p, ol, ul {
+    max-width: 70rem;
+  }
 }
 
 small {
@@ -260,7 +272,7 @@ footer {
 }
 
 @media print,
-screen and (max-width: 960px) {
+screen and (max-width: 992px) {
 
   div.wrapper {
     width: auto;
@@ -276,7 +288,7 @@ screen and (max-width: 960px) {
   }
 
   #git-wiki-sidebar {
-    padding-right: 320px;
+    padding-right: 0px;
   }
 
   .git-wiki-page,
