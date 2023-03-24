@@ -1,9 +1,9 @@
 # Title of your wiki (string)
-title: Test Wiki
+title: ELISSA Wiki
 # Remote theme used to include more files
 remote_theme: Drassil/git-wiki-theme@master
 # Description of the wiki
-description: Test Wiki
+description: This wiki documents the ELISSA project of the Institute for Space Systems at the TU Braunschweig.
 # Able to download wiki pages
 show_downloads: true
 # Show the wiki pages
