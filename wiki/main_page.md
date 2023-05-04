@@ -12,13 +12,14 @@ information to the testbed operators and developers and can serve as an input fo
 * [testbed](testbed/testbed) links to all documents that directly adress the elissa testbed itself.
 * [tutorials](tutorials/tutorials) provides tutorials for using the testbed.
 * [experiments](experiments/experiments) lists setups and reports of experiments conducted onboard the testbed.
+* [Test Link](overview/overview.md) to the page
 
 ## About Elissa
 Some lines about the project (TBD)
-![the elissa testbed](elissa.png)
+![the elissa testbed](graphics/elissa.png)
 
 ## Further reading 📕
-Besides this wiki, there are some documents (slides, theses and report) describing the testbed:
+Besides this wiki, there are some documents (slides, thesis and report) describing the testbed:
 
 * [Design and Qualification of Hardware-in-the-Loop Testbed to Experimentally Evaluate Spacecraft Proximity Operations](documents/thesislasse2020.pdf) is a student thsis that provides details regarding the Hanno Freeflyer and the GNC subsystem. [This set of Slides](documents/talklasse2020.pdf) provides a condensed version of aforementioned thesis
 * [Experimentelle Charakterisierung der Dockingeigenschaften von Gecko-materialien auf einem Luftlagertisch](documents/rftp2020.pdf) describes docking tests undertaken onboard the testbed.
