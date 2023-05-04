@@ -1,5 +1,5 @@
 # (string) Title of your wiki
-title: River Architect
+title: ELISSA Wiki
 # (string) Description of your wiki
 description: Wiki & User Guide
 # (boolean) Enable/disable wiki page list in sidebar
@@ -23,7 +23,7 @@ service: "github"
 # (string) Specify branch rendered by gitpages allowing wiki tool buttons to work
 git_branch: "main"
 # (string) Url of logo image, it can be full, absolute or relative.
-logo_url: https://github.com/RiverArchitect/Welcome/raw/master/images/RA_wiki_icon.PNG
+logo_url: assets/images/elissa_logo.png
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
 google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
